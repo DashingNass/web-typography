@@ -5180,7 +5180,7 @@ right: 9em;
 animation: fadeIn2 3s;
 
 opacity: 0.8;
-background: url(/images/roughbackground.jpg);
+background: url(./images/roughbackground.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 
@@ -5327,7 +5327,7 @@ animation: sounds 2s;
 https://codepen.io/techshiva/pen/JVbKLM*/
 .sound3{
     opacity: 1;
-background: url(/images/roughbackground.jpg);
+background: url(./images/roughbackground.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 animation-name: buzz-out;
@@ -5463,7 +5463,7 @@ animation: sounds 2s 1s;
 /*Low Buzz sound*/
 .sound5{
     opacity: 1;
-background: url(/images/roughbackground.jpg);
+background: url(./images/roughbackground.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 animation-name: buzz-out;
@@ -5475,7 +5475,7 @@ animation: sounds 2s 1s;
 
 /*High Buzz sound*/
 .sound6{
-    background: url(/images/roughbackground.jpg);
+    background: url(./images/roughbackground.jpg);
 background-repeat:no-repeat;
 background-size:cover;
     animation: spaceboots;
@@ -5545,7 +5545,7 @@ animation: sounds 2s 1s;
 
 /*Low Buzz sound*/
 .sound7{
-    background: url(/images/baseline-versie2.jpg);
+    background: url(./images/baseline-versie2.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 animation-name: buzz-out;
@@ -5560,7 +5560,7 @@ animation: sounds 2s 1s;
 /*High buzz sound*/
 .sound8{
 /*    opacity: 0.9;*/
-background: url(/images/baseline-versie2.jpg);
+background: url(./images/baseline-versie2.jpg);
 background-attachment: fixed;
 background-repeat:no-repeat;
 background-size:cover;
@@ -5575,7 +5575,7 @@ animation-duration: 1s;
 
 /*Intense music starts playing*/
 .sound9{
-    background: url(/images/baseline-versie2.jpg);
+    background: url(./images/baseline-versie2.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 animation:grootScherm 30s 0.1s ease;
@@ -5596,6 +5596,11 @@ animation-delay: 15s;
 
 /*Intens music gets louder*/
 .sound10{
+background: url(./images/baseline-versie2.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+animation:grootScherm 30s ease;
+animation-delay: 15s;
     animation: zoom-in-focus;
 }
 
