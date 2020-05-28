@@ -133,9 +133,6 @@ p {
 
 */
 
-
-
-
 /*================================================*/
 /*           VOICES/STEMMEN VAN DE ACTEURS        */
 /*================================================*/
@@ -883,7 +880,7 @@ top: -8em;
 
 #tallWhiteFountain{
 margin-left: 2em;
-    margin-top: 5em}
+    margin-top: 5em;}
 
 /*And*/
 .p7.on span:nth-of-type(1) {
@@ -5573,14 +5570,16 @@ animation-duration: 1s;
 }
 
 
+
 /*Intense music starts playing*/
 .sound9{
-    background: url(./images/baseline-versie2.jpg);
+background: url(./images/baseline-versie2.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 animation:grootScherm 30s 0.1s ease;
 animation-delay: 15s;
 }
+
 .sound9 .geluid9 {
   animation: sounds 8s 1s;
 }
@@ -5594,21 +5593,40 @@ animation-delay: 15s;
 }
 
 
+
+/*Afbeelding is afkomstig van: https://codepen.io/thebabydino/pen/ICHKq*/
+
 /*Intens music gets louder*/
 .sound10{
-background: url(./images/baseline-versie2.jpg);
+/*background: url(./images/baseline-versie2.jpg);*/
+background: url(http://imgsrc.hubblesite.org/hu/db/images/hs-2007-16-a-xlarge_web.jpg);
 background-repeat:no-repeat;
 background-size:cover;
-animation:grootScherm 30s ease;
-animation-delay: 15s;
-    animation: zoom-in-focus;
+/*animation:grootScherm 30s ease;*/
+/*animation-delay: 5s;*/
+    animation-name: zoom-in-focus;
 }
 
 .sound10 .geluid10 {
   animation: sounds 6s 3s;
 /*    animation-delay: 3s;*/
 }
-@keyframes zoom-in-focus {
+
+
+
+
+/*@keyframes zoom-in-focus {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(3);
+    }
+}*/
+/*@-webkit-keyframes zoom-in-focus {
     0% {
         transform: scale(1,1);
     }
@@ -5618,18 +5636,7 @@ animation-delay: 15s;
     100% {
         transform: scale(1,1);
     }
-}
-@-webkit-keyframes zoom-in-focus {
-    0% {
-        transform: scale(1,1);
-    }
-    50% {
-        transform: scale(1.2,1.2);
-    }
-    100% {
-        transform: scale(1,1);
-    }
-}
+}*/
 
 
 
